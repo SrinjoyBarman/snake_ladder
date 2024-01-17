@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: coral;  
+}
+
+body{
+    height: 85vh;
+    background-color: #fff;
+    border: 3px solid black;
+    background-color: brown;
+    padding: 20px;
+}
+
+#container{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    direction: rtl;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(10, 1fr);
+    border: 2px solid red;
+    background-color: red;
+    gap: 2px;
+}
+
+.grid-element{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#play-container{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+#player-container{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    gap: 6px;
+}
+
+#submit{
+    width: 80px;
+    height: 30px;
+    background-color: brown;
+    border-radius: 5px;
+    border: 2px solid red;
+    color:#fff;
+}
+
+#submit:hover{
+    background-color: orange;
+}
